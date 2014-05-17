@@ -8,21 +8,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:kaelzhang/node-cortex-cdn-provider.git"
+    "url": "git@github.com:cortexjs/cortex-cdn-provider.git"
   },
   "keywords": [
     "cortex-cdn-provider"
   ],
-  "engines": { 
+  "engines": {
     "node": ">=0.8.0"
   },
   "author": "kael",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaelzhang/node-cortex-cdn-provider/issues"
+    "url": "https://github.com/cortexjs/cortex-cdn-provider/issues"
   },
   "devDependencies": {
     "mocha": "~1.13.0",
     "chai": "~1.8.0"
+  },
+  "dependencies": {
+    "koa": "^0.6.1"
   }
 }
