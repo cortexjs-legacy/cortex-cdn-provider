@@ -13,28 +13,30 @@ CDN provider for cortex, including:
     |-- a
         |-- 0.1.0
                 |-- a.js
+                |-- md5.json
+                
         |-- 0.1.0.zip (dynamic or static)
         
         |-- 0.1.2
                 |-- b.js
+                |-- md5.json
         |-- 0.1.2.zip (...)
         |-- 0.1.0-0.1.2.zip (dynamic)
 ```
 
 #### normal
 
-zip/a/0.1.0.zip
+`zip/a/0.1.0.zip` -> shasum -> headers ?
 
-#### patch
+#### diff-patch
 
-zip/a/0.1.0~0.1.2.zip
+`zip/a/0.1.0~0.1.2.zip`
 
 #### batch
 
-zip/a,b/0.1.0~0.1.2,0.1.0~0.2.3.zip  <- version server
+`zip/a,b/0.1.0~0.1.2,0.1.0~0.2.3.zip`  <- version server
 
 ## Combo Server
-
 
 
 - css
