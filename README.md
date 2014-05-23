@@ -36,6 +36,13 @@ CDN provider for cortex, including:
 
 `zip/a,b/0.1.0~0.1.2,0.1.0~0.2.3.zip`  <- version server
 
+
+## Zip structure
+
+```
+
+.json
+
 ## Combo Server
 
 
@@ -43,3 +50,10 @@ CDN provider for cortex, including:
   - dynamic css background 
   
 - js
+
+###
+
+checksum
+
+
+
